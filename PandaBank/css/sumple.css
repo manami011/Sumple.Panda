@@ -1,0 +1,671 @@
+html, body{
+  margin: 0;
+  background: #FBF8EE;
+}
+
+h1, h2{
+  margin: 0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+header{
+  margin: 0 auto;
+  height: 300px;
+  background: #B59B52;
+  color: white;
+}
+
+.top_title{
+  text-align: center;
+  font-size: 60px;
+  line-height: 150px;
+  font-family: ab-kirigirisu, sans-serif;
+}
+
+.kirigirisu{
+  font-family: ab-kirigirisu, sans-serif;
+}
+
+/* 戻るボタン */
+.back{
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #605D28;
+  font-size: 35px;
+  background: #F2DC00;
+  border-radius: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: ab-kirigirisu, sans-serif;
+}
+
+.back a{
+  color: #605D28;;
+}
+
+.back a:hover{
+  color: white;
+}
+
+/*-----------------------------------
+パンダQ&A
+----------------------------------- */
+
+#example1{
+  margin-bottom: 30px;
+  padding: 60px 40px 30px;
+  background: #605D28;
+}
+
+.example1_continer{
+  padding: 30px 80px 20px;
+  background: #FBF8EE;
+  border-radius: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.example1_continer_in{
+  width: 600px;
+  position: relative;
+  left: 50%;
+  transform: translate(calc(-50% + -60px), 0);
+}
+
+.example{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.example:nth-child(3){
+  padding-bottom: 20px;
+}
+
+#example1 h2{
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: -30px;
+}
+
+#example1 .under{
+  background: linear-gradient(transparent 90%, #B2C43A 90%);
+}
+
+#example1 .person .text_Q{
+  padding: 0 0 5px 40px;
+  width: 200px;
+  height: 100px;
+  background: white;
+  border: solid #F2DC00 1px;
+  border-radius: 15px;
+  color: #A97967;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#example1 .example:nth-of-type(1) .person .text_Q{
+  padding: 15px 0 0 40px;
+}
+
+.person{
+  display: flex;
+  margin-right: 30px;
+}
+
+.person img{
+  position: relative;
+  left: 30px;
+}
+
+.panda{
+  display: flex;
+  position: relative;
+}
+
+.panda .text_A{
+  padding: 10px 20px 10px 30px;
+  width: 280px;
+  height: 130px;
+  background: #F2DC00;
+  border-radius: 15px;
+  box-shadow: #7FC69C 0 5px 0;
+}
+
+.panda img{
+  position: absolute;
+  bottom: -10px;
+  right: -40px;
+}
+
+.panda p{
+  font-family: vdl-v7gothic, sans-serif;
+  line-height: 23px;
+  color: #A97967;
+  font-weight: 700;
+}
+
+.panda_red{
+  color: #C63F5F;
+  }
+
+
+/* ----------------------------------
+
+年会費について 
+
+-----------------------------------*/
+
+
+#example2{
+  margin: 0 40px 30px;
+}
+
+#example2 h1{
+  font-size: 45px;
+  margin: 80px auto 0;
+  font-family: ab-kirigirisu, sans-serif;
+  
+}
+
+#example2 h1 .under{
+  background: linear-gradient(transparent 90%, #B2C43A 90%);
+}
+
+#example2 h2{
+  width: 250px;
+  line-height: 50px;
+  color: white;
+  background: #799F30;
+  border-radius: 20px;
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+
+#example2 .gold h2{
+  background: #8F8542;
+} 
+
+#example2 .detail_1{
+  background: white;
+  border: solid #799F30 1px;
+  border-top: solid #799F30 20px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+#example2 .gold .detail_1{
+  border: solid #8F8542 1px;
+  border-top: solid #8F8542 20px;
+}
+
+/* 
+リクエストボタン 
+-----------------------------------*/
+
+ #example2 .request_button{
+  margin: 0 auto;
+  width: 200px;
+  height: 45px;
+  position: relative;
+  background: #E94620;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 5px 2px 0 rgba(152, 43, 35, 1);
+  text-align: center;
+}
+
+#example2 .request_button p{
+  margin: 5px 0 0 0;
+  font-size: 8px;
+}
+
+#example2 .request_button h4{
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+
+#example2 .request_button img{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+.detail_1_container{
+  margin: 40px 0 20px;
+  display: flex;
+  width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* 
+初年度〜のタイトル部分
+----------------------------------- */
+
+#example2 .card{
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  left: -30px;
+}
+
+#example2 .card_title{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  margin: 0;
+  font-size: 35px;
+  position: relative;
+  top: 20px;
+}
+
+#example2 .card_title h2{
+  position: relative;
+  top: -30px;
+}
+
+.cost_1{
+  width: 160px;
+  margin: 0 20px 35px 20px;
+  border: solid #F2DC00 1px;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+}
+
+#example2 .cost_1 h1{
+  margin: 0;
+  color: white;
+  line-height: 30px;
+}
+
+#example2 .cost_1_back{
+  width: 160px;
+  height: 70px;
+  background: #F2DC00;
+  border-radius: 15px 15px 0 0;
+}
+
+#example2 .card_title span{
+  font-size: 18px;
+}
+
+#example2 .card_title .card_title_small{
+  font-size: 15px;
+}
+
+#example2 .cost_1_back .year{
+  position: relative;
+  top: 20px;
+}
+
+.small_title #small{  
+  position: relative;
+  top: -5px;
+}
+
+#example2 .card_title #small{
+  position: relative;
+  top: 0;
+}
+
+
+#example2 .cost_1 h2, h3{
+  color: #C63F5F;
+  background: white;
+}
+
+#example2 .cost_1 h3{
+  margin: 20px 0 0;
+  position: relative;
+  top: 30px;
+}
+
+#example2 .cost_1 h2{
+  font-size: 40px;
+  position: relative;
+  left: -10px;
+  transform: scale(0.85, 1);
+  border-radius: 0;
+  text-align: left;
+}
+
+#example2 .card_service{
+  padding: 0 13px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.service_more{
+  font-size: 12px;
+  /* text-align: right; */
+  position: relative;
+  right: -30px;
+  color: #C63F5F;
+}
+
+.cost_1 #black{
+  color: black;
+  font-size: 18px;
+}
+.cost_1 #black span:nth-of-type(2){
+  color: #C63F5F;
+}
+
+.cost_1 p{
+  color: #C63F5F;
+}
+
+.cost_1_text{
+  /* display: inline-block;
+  height: 50px; */
+  position: relative;
+  top: 30px;
+}
+
+.cost_1 p span{
+  font-size: 10px;
+  color: black;
+}
+
+.detail_2{
+  margin: 0 auto;
+  background: #B2C43A;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+}
+
+#year_title{
+  position: relative;
+  top: 5px;
+}
+
+/* .yerrow_title{
+  position: relative;
+  top: 20px;
+} */
+
+/* 
+ゴールドカード
+----------------------------------- */
+
+.gold{
+  position: relative;
+  top: -40px;
+}
+
+.gold .detail_2{
+  background: #8F8542;
+}
+
+.detail_2_text{
+  margin: 0 auto;
+  padding: 5px 20px 20px;
+  width: 300px;
+  background: #FFFFFF;
+  opacity: 0.77;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.detail_2_text h3{
+  margin: 0;
+  line-height: 50px;
+  color: black;
+  background: none; 
+  font-size: 25px;
+  font-family: ab-kirigirisu, sans-serif;
+}
+
+.detail_2_text p{
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  left: 20px;
+}
+
+.detail_2_text p span{
+  font-size: 14px;
+  line-height: 14px;
+  position: relative;
+  top: 5px;
+}
+
+/* 
+チェックマーク
+----------------------------------- */
+
+#check_1{
+  transform: translate(-160px, -46px);
+}
+#check_2{
+  transform: translate(-180px, -15px);
+}
+#check_3{
+  transform: translate(-180px, -25px);
+}
+#check_4{
+  transform: translate(-200px, 1px);
+}
+
+.detail_2_main{
+  margin: 0 auto;
+  display: inline-flex;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.detail_2_main img:nth-of-type(1){
+  transform: translate(15px, 0);
+  z-index: 10;
+}
+.detail_2_main img:nth-of-type(2){
+  transform: translate(-20px, 0);
+  z-index: 10;
+}
+
+/*----------------------------------- 
+説明　下部分 
+-----------------------------------*/
+
+.detail_3{
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.detail_3 .left, .right{
+  transform: translate(0, -120px);
+}
+
+.detail_3 .left, .right p{
+  color: white;
+  font-size: 12px;
+}
+
+.detail_3 .right{
+  position: relative;
+  left: -30px;
+}
+
+.detail_3 .right p{
+  text-align: right;
+}
+
+.detail_3 .left img{
+  transform: translate(80px, 10px);
+}
+.detail_3 .right img{
+  transform: translate(40px, 10px);
+}
+
+
+/* --------------------------------
+
+申し込みの流れ 
+
+--------------------------------*/
+
+#example3{
+  margin: 0 auto 50px;
+}
+
+#example3 .example3_content_in{
+  width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#example3 h1{
+  margin: 0 auto;
+  width: 500px;
+  line-height: 80px;
+  background: #F2DC00;
+  border-radius: 30px;
+  position: relative;
+  top: 50px;
+  font-family: ab-kirigirisu, sans-serif;
+  font-size: 35px;
+}
+
+#example3 .example3_content{
+  padding: 50px;
+  background: #F4F9F1;
+  border: solid #605D28 2px;
+  border-radius: 5px;
+  margin: 10px 40px;
+}
+
+.example3_content .example3_detail_1{
+  margin: 70px 50px auto;
+  width: 400px;
+  height: 160px;
+  background: white;
+  border: solid #5E5C29 1px;
+  border-radius: 15px;
+}
+
+#example3 .title{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  left: -25px;
+}
+
+.example3_detail_1 .titie_left{
+  line-height: 60px;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  background: #F2DC00;
+  border: solid #B2C43A 3px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.example3_detail_1 .titie_left span{
+  font-size: 30px; 
+}
+
+.title_right{
+  width: 210px;
+  height: 40px;
+  background: #B2C43A;
+  border-radius: 13px;
+  text-align: center;
+  position: relative;
+  left: -20px;
+  
+}
+
+.title_right h3{
+  margin: 0;
+  line-height: 40px;
+  color: black;
+  background: none;
+}
+
+.example3_text{
+  margin: 0 auto;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  position: relative;
+  top: -30px;
+}
+
+/* 緑の下矢印 */
+#process_next{
+  position: relative;
+  margin-bottom: 20px;
+  left: 100px;
+  top: 40px;
+}
+
+/* 見出し長いので文字小さく */
+#h3_title{
+  font-size: 16px;
+}
+
+/* 注意書きを横並びにする */
+.attention_group{
+  display: flex;
+}
+
+.attention_group .process_attention{
+  width: 200px;
+  position: relative;
+  top: 100px;
+}
+
+
+/*----------------------------------- 
+フッター 
+-----------------------------------*/
+footer{
+  height: 300px;
+  background: #B59B52;
+  color: white;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 40px;
+  line-height: 150px;
+  background: none;
+}
+
+.process_attention p{
+  color: #C63F5F;
+}

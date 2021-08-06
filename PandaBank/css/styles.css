@@ -1,0 +1,733 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background: #F4F9F1;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover, .btn_b:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.btn_header:hover{
+  background: olive;
+  color: #402C1F;
+  cursor: pointer;
+}
+
+header{
+  background: #605D28;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header ul{
+  margin: 0;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color:  #BC7C1A;;
+  font-size: 14px;
+  position: absolute;
+  left: 30px;
+}
+
+header ul li{
+  margin: 10px 3px;
+}
+
+header li img{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+header li .button{
+  background: #664000;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+}
+
+header .logo{
+  display: flex;
+  margin: 10px 39px 10px 0;
+  position: absolute;
+  right: 30px;
+}
+
+header .logo .logo_button{
+  width: 90px;
+  margin-left: 10px;
+  border : Solid 1px;
+  border-color : #BDA977;
+  border-radius: 25px;
+}
+
+header .logo_button p{
+  line-height: 15px;
+  margin: 0 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #BDA977;
+}
+
+header .logo_button p:nth-child(odd){
+  font-size: 5px;
+}
+
+.content .header_2{
+  display: flex;
+  margin: 10px 100px 0 50px;
+} 
+
+.content .search{
+  width: 150px;
+  height: 25px;
+  background : #B8DAA0;
+  border: Solid 1px;
+  border-color : #5E5C29;
+  font-size: 13px;
+  color: #5E5C29;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.content .search_button{
+  margin-left: 5px;
+  width: 50px;
+  height: 30px;
+  background: #402C1F;
+  border-radius: 5px;
+  color: #BC7C1A;
+  text-align: center;
+}
+
+.content .top ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+
+.content .top ul li{
+  margin-left: 20px;
+  color: #BC7C1A;
+  font-size: 18px;
+}
+
+.content .top .li a:link, a:visited{
+  color: #BC7C1A;
+}
+
+.content .title{
+  margin-top: 20px;
+  height: 150px;
+  text-align: center;
+  color: #94671A;
+}
+
+.content .title img{
+  position: relative;
+  z-index: 20;
+} 
+
+.content .title_text{
+  position: relative;
+  top: -125px;
+  z-index: 30;
+}
+
+.content .title_text h1{
+  margin: 0;
+  font-size: 45px;
+  line-height: 35px;
+}
+
+.content .title_text h2{
+  margin: 0;
+}
+
+.content .title_text2{
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: #F2DC00;
+  border-radius: 15px;
+  z-index: -10
+}
+
+.content .title_text2 p{
+  margin: 25px 10px 0 10px;
+  font-size: 18px;
+  color: #94671A;
+}
+
+.content .title_text2 .title_detail{
+  margin-bottom: 0;
+  font-size: 10px;
+  color: red;
+}
+
+.content .title .title_logo{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #F2DC00;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 10
+}
+
+.content .title .title_logo img{
+  top: 5px;
+}
+
+.content .top_image{
+  text-align: center;
+  color: #605D28;
+  font-size: 20px;
+}
+
+.content .top_image img{
+  position: relative;
+  top: -100px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 
+リクエストボタン 
+-----------------------------------*/
+
+.content .request_button{
+  margin: 0 auto;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: -100px;
+  background: #E94620;
+  border: solid 2px;
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 5px 2px 0 rgba(152, 43, 35, 1);
+  text-align: center;
+}
+
+.request_button a{
+  color: white;
+}
+
+.content .request_button p{
+  margin: 5px 0 0 0;
+  font-size: 15px;
+}
+
+.content .request_button h1{
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.content .request_button img{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+.main{
+  position: relative;
+  top: -50px;
+  margin: 0 30px;
+  padding: 40px 0;
+  background : #FBF8EE;
+  border: solid 1px;
+  border-color : #605D28;
+  border-radius : 10px 10px 0px 0px;
+}
+
+.main .button{
+  position: relative;
+  margin-bottom: 150px;
+  top: 40px;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main .button_2{
+  position: relative;
+  margin-bottom: 150px;
+  top: 40px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* 
+ボタン 
+-----------------------------------*/
+.main .main_button{
+  width: 280px;
+  height: 50px;
+  padding: 5px 0px;
+  margin: 20px 20px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  background: #F2DC00;
+  border-radius: 15px;
+  box-shadow: 0 5px 0 rgba(127, 198, 156, 1);
+  
+  position: relative;
+}
+
+.main .btn_b a{
+  color: black;
+}
+
+
+.main .main_button p{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  transform: translate(calc(-50% - 10px), -50%);
+}
+.main .main_button img{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  right: 20px;
+  transform: translate(0%, -50%);
+}
+
+.main .content_1{
+  font-size: 15px;
+}
+
+/* タイトルのスタイル */
+h1{
+  font-family: ab-kirigirisu, sans-serif;
+  font-size: 33px;
+}
+
+.underbar{
+  background: linear-gradient(transparent 90%, #B2C43A 90%);
+}
+
+
+#top_h1{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+}
+
+#card_h1{
+  font-family: source-han-sans-japanese, sans-serif;
+}
+
+.more{
+  color: #605D28;
+  margin: 0;
+  line-height: 70px;
+}
+
+/* 緑色のボタン */
+.main .content_title_1{
+  padding: 6px 20px;
+  width: 400px;
+  height: 70px;
+  text-align: center;
+  background: #B2C43A;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: ab-kirigirisu, sans-serif;
+  position: relative;
+  left: 50%;
+  top: 40px;
+  transform: translate(-50%, -50%);
+}
+
+#card_title{
+  font-family: source-han-sans-japanese, sans-serif;
+  font-size: 18px;
+}
+
+/* タイトル　スタイルここまで */
+
+.main .content_2{
+  margin: 0 20px;
+  padding: 50px auto;
+  height: 300px;
+  background: white;
+  border-style: dashed none;
+  border-color: #AF9F84;
+  border-width: 1.5px;
+  }
+
+.main .content_title_2{
+  padding: 6px 20px;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  left: 50%;
+  top: 60px;
+  transform: translate(-50%, -50%);
+}
+
+.main .content_card{
+  margin: 10px 0 50px;
+  padding: 10px 0;
+  width: 700px;
+  height: 285px;
+  background: #F2DC00;
+  position: relative;
+  left: 50%;
+  top: 180px;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.main .content_card .card_text{
+  padding: 20px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .content_card .card_text .card_text_1{
+  padding: 10px;
+  border: solid white 1px;
+  border-radius: 15px;
+  height: 80px;
+  width: 180px;
+  position: relative;
+}
+
+.main .content_card p{
+  margin: 0 0 5px 0;
+  color: #A97967;
+  font-size: 16px;
+  text-align: left;
+}
+
+.main .content_card .card_text .card_text_1 .card_next_down{
+  width: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+#image1{
+  position: relative;
+  top: 29px;
+}
+
+#image2{
+  position: relative;
+  top: 10px;
+}
+
+#next1{
+  position: absolute;
+  top: -15px;
+  right: 5px;
+}
+
+#next2{
+  position: absolute;
+  top: -15px;
+  right: 5px;
+}
+
+/* -----------------------------------
+選べるカード 
+-----------------------------------*/
+
+.content_card_image{
+  position: relative;
+  margin: 200px 100px 100px;
+  padding: 80px 30px 30px;
+  text-align: center;
+  background: white;
+  border-style: dashed none;
+  border-color: #AF9F84;
+  border-width: 1.5px;
+}
+
+.card_images{
+  width: 600px;
+}
+
+.card_images img{
+  width: 200px;
+  margin: 0 5px;
+}
+
+.content_card_image .content_title_1{
+  margin: 0 0 70px;
+}
+
+.content_card_image .card_title{
+  margin-bottom: 50px;
+  background: #B59B52;
+  border-radius: 7px;
+  color: white;
+  line-height: 30px;
+}
+
+#card{
+  position: absolute;
+  top: -10px;
+}
+
+#card_1{
+  width: 670px;
+  position: relative;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
+
+#card_2{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
+
+/* -----------------------------------
+表デザイン 
+-----------------------------------*/
+
+.table{
+  margin: 10px 100px 50px;
+  text-align: center;
+  }
+
+.table table{
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table th{
+  border: solid 1px black;
+  padding: 5px 30px;
+}
+
+.table td{
+  border: solid 1px black;
+  padding: 20px 30px;
+  background: white;
+}
+
+table .center{
+  text-align: center;
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-size: 20px;
+  line-height: 30px ;
+}
+
+.table table tr td:nth-child(1){
+  background: #DAD8C6;
+}
+
+.table h1{
+  font-size: 20px;
+}
+
+table tr{
+  text-align: left;
+}
+
+.table th{
+  color: white;
+}
+
+table th:nth-child(1){
+  background: #605D28;
+}
+
+.table th:nth-child(2){
+  background: #B2C43A;
+}
+
+.table th:nth-child(3){
+  background: #B59B52;
+}
+
+/* -----------------------------------
+注意事項
+----------------------------------- */
+
+.attention{
+  margin: 50px 80px 80px;
+  text-align: center;
+}
+
+.attention h1{
+  margin: 0;
+  color: white;
+  font-size: 13px;
+  font-family: source-han-sans-japanese, sans-serif;
+  display: inline-block;
+}
+
+.attention_head{
+  background : #C31D1F;
+  border: Solid #C31D1F 1px; 
+  border-radius : 13px 13px 0px 0px;
+  padding: 2px;
+}
+
+.attention_head img{
+  vertical-align: middle;
+}
+
+.attention p{
+  font-size: 10px;
+}
+
+.attention_container{
+  padding: 20px 40px;
+  text-align: left;
+  background: white;
+  border-radius: 0 0 13px 13px;
+  border: solid #C31D1F 1px;
+}
+
+
+/* フッター */
+
+.footer_ground{
+  background: #605D28;
+  height: 60px;
+  width: 150%;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -100%);
+}
+
+footer{
+  height: 270px;
+  background: #605D28;
+  color: white;
+  position: relative;
+  top: -80px;
+  bottom: 0;
+  z-index: 10;
+}
+
+footer h1{
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 22px;
+  z-index: 10;
+  color: white;
+}
+
+footer p{
+  margin: 0;
+}
+
+.footer_content{
+  padding: 10px 200px 0;
+}
+
+footer td{
+  width: 300px;
+  height: 25px;
+  font-size: 12px;
+}
+
+footer .logo{
+  height: 50px;
+  width: 100%;
+  background: #4B491A;
+  position: relative;
+  top: 60px;
+  z-index: -10;
+}
+
+#footer_title{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+}
+
+
+/* バスたち */
+#bus_1{
+  position: relative;
+  top: -30px;
+  z-index: 10;
+}
+#bus_2{
+  position: relative;
+  top: -30px;
+  right: -100px;
+  z-index: 10;
+}
+#bus_3{
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+  z-index: 10;
+}
+
+
+#background, #background{
+  margin: 0;
+  position: absolute;
+  bottom: -200px;
+  left: -1px;
+  height: 200px;
+  width: 900px;
+  background: #FBF8EE;
+  border-left: solid 1px #605D28;
+}
+#background_2{
+  margin: 0;
+  position: absolute;
+  bottom: -200px;
+  right: -1px;
+  height: 200px;
+  width: 900px;
+  background: #FBF8EE;
+  border-right: solid 1px #605D28;
+  
+}
+
+.wrap {
+	overflow: hidden;
+}
